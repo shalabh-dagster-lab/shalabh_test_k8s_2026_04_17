@@ -21,7 +21,7 @@ env:
   # Path to the root folder containing the dagster project
   DAGSTER_PROJECT_DIR: "."
   # Enable PEX-based fast deploys (set to "false" to use Docker builds instead)
-  ENABLE_FAST_DEPLOYS: "true"
+  ENABLE_FAST_DEPLOYS: "false"
   # Python version used to deploy the project
   PYTHON_VERSION: "3.10"
   # GitHub token for PR comments and branch deployments
